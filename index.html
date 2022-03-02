@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homemade Pizza | Recipe</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <style>
         span{
             color: red;
@@ -22,17 +26,20 @@
             color: orangered
             
         }
-
     </style>
 </head>
 
 <body style="background-color: bisque; font-size: 0.8rem;">
     <!-- navbar start -->
-    <nav>
-        <h1 style="font-size: 2.5rem; color:brown"><i>...Homemade Pizza...</i></h1>
-        <p><i> <strong>This is a classic homemade pizza recipe, including a pizza dough recipe, topping suggestions, and step-by-step instructions . Make perfect pizza at home!</strong></i> </p>
-        <p><b>Author:</b> Taha </p>
-    </nav>
+    <nav class="navbar navbar-dark bg-primary ">
+        <div class="container-fluid mx-auto" style="width: 300px;">
+          <a class="navbar-brand fs-1 fst-italic mx-auto mb-5" style="border: 13px double gold;">...Homemade Pizza...</a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" style="color: aliceblue; background-color: green;" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
     <!-- navbar end -->
     
     <!-- content start -->
@@ -40,7 +47,7 @@
         <a href=""></a>
         
         <!-- articles start -->
-        <article style="display: inline-block; text-align: start; width: 600px;">
+        <article class="mt-5" style="display: inline-block; text-align: start; width: 600px;">
             <pre><u><span> For how many people:</span>for 4 people</u>   <u><span>Preparation time:</span>30 minutes</u>    <u><span>cooking time</span>10 Minutes</u></pre>
           <h3>Ingredients For Pizza Recipe</h3>
             <ul>
